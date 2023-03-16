@@ -20,7 +20,13 @@ basic.forever(function () {
         if (zustand == links) {
             basic.showArrow(ArrowNames.West)
         } else {
-        	
+            basic.showLeds(`
+                . . # . .
+                . # # # .
+                # . # . #
+                . . # . .
+                . . # . .
+                `)
         }
     }
     basic.pause(500)
