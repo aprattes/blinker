@@ -1,6 +1,9 @@
 input.onButtonPressed(Button.A, function () {
     zustand = links
 })
+input.onButtonPressed(Button.AB, function () {
+    zustand = 0
+})
 input.onButtonPressed(Button.B, function () {
     zustand = rechts
 })
